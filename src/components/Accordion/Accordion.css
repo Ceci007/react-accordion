@@ -1,16 +1,23 @@
 .accordion {
-    max-width: 400px;
-    margin: 20px auto 0;
+    max-width: 300px;
+    margin: 20px auto;
     border-radius: 4px;
-    background: #7177ca;
+    background: #f0e556;
+    position: relative;
+    z-index: 10;
+}
+
+.accordion:last-child {
+    margin-bottom: 20px !important;
 }
 
 .accordion-visible {
-    background: #7177ca;
+    background: #f0e556;
     width: 100%;
-    color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    font-weight: 700;
     cursor: pointer;
-    border-bottom: 5px solid #474d9b;
+    border-bottom: 5px solid #f7bf46;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,7 +28,7 @@
 }
 .accordion-visible span {
     padding: 15px 0;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .chevron-box {

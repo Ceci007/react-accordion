@@ -9,33 +9,10 @@
 }
 
 body {
-  background: #333;
-  overflow: hidden;
+  background: #d4d3d3;
+  overflow-x: hidden;
+  height: 1000px;
 }
+ 
 
-body:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 50%;
-  height: 100%;
- /* background-image: url("./img/cat-bg.jpg"), linear-gradient(#87b4f2, #6c77f5);*/
- background-image:  
- linear-gradient(
-   to right bottom,
-   rgba(255, 255, 255, 0.1), 
-   rgba(255, 255, 255, 0)
- ), url("./img/cat-bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  -webkit-transform-origin: 100% 0;
-  -ms-transform-origin: 100% 0;
-  transform-origin: 100% 0;
-  -webkit-transform: skewX(-10deg);
-  -ms-transform: skewX(-10deg);
-  transform: skewX(-10deg);
-  z-index: -1;
-  transform-origin: bottom;
-}
+
