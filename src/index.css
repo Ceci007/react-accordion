@@ -11,7 +11,9 @@
 body {
   background: #d4d3d3;
   overflow-x: hidden;
-  height: 1000px;
+  height: 1100px;
+  padding: 40px 0;
+  padding-top: 0;
 }
  
 

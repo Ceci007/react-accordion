@@ -18,10 +18,12 @@ const accordionData = [
 
 function App() {
   return (
-    <div class="container">
+    <div className="container">
+      <div className="container-fluid">
       {accordionData.map(accordion => {
         return <Accordion header={accordion.header} paragraph={accordion.paragraph} />
       })}
+      </div>
     </div>
   );
 }
